@@ -1,0 +1,280 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:arial;
+    
+}
+
+header{
+    display:flex;
+    justify-content:center;
+    height:48px;
+    padding:12px;
+}
+
+
+.container{
+    width:100%;
+    display:flex;
+    justify-content:flex-end
+}
+.column{
+    flex-direction:column;
+}
+nav ul,
+nav li{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+nav ul{
+    display:flex;
+}
+nav a{
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    color:#000000de;
+    font-family:arial;
+    font-size:13px;
+}
+nav .coisa:hover{
+    text-decoration:underline;
+}
+header .buttao{
+    background-color:#1a73e8;
+    padding:10px 20px;
+    color:#fff;
+    border-radius:5px;
+    
+}
+header .menu{
+    padding:6px 10px;
+    border-radius:25px;
+    
+}
+header .menu:hover{
+    background-color:#eee;
+    border-radius:25px;
+}
+
+
+.espaço{
+    height:188px;
+}
+
+.logo{
+    display:flex;
+    justify-content:center;
+    margin-bottom:25px;
+    margin-top:-10px;
+}
+.search{
+    display:flex;
+    justify-content:center;
+}
+
+.logo img{
+    width:375px;
+    height:150px;
+
+}
+
+.procurador{
+    width:560px;
+    border:1px solid #ddd;
+    display:flex;
+    height:39px;
+    justify-content:space-between;
+    padding-top:5px;
+    padding-left:14px;
+    padding-right:8px;
+    border-radius:25px;
+}
+.icons-right{
+    display:flex;
+    margin-left:10px;
+}
+.ir{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-right:20px;
+    height:39px;
+    margin-top:-2px;
+}
+.ir1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:5px;
+    margin-right:10px;
+    margin-top:5px;
+}
+.lupa{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-bottom:2px;
+    padding-right:5px;
+}
+.div-input{
+    flex:1;
+}
+.search input{
+    outline:0;
+    border-width:0px;
+    height:100%;
+    padding-bottom:10px;
+    font-size:18px;
+    width:100%;
+}
+
+
+.buttons-down{
+    display:flex;
+    justify-content:center;
+    margin-top:25px;
+    font-size:14px;
+    
+}
+.bd{
+    margin-right:25px;
+    
+}
+.bd a{
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    color:#000000de
+}
+.bd a:hover{
+    background-color:#eee;
+    border:1px solid #ddd;
+    padding:9px;
+    border-radius:5px;
+}
+
+.footer-part1{
+    display:flex;
+    justify-content:flex-start;
+    background-color:#eee;
+    padding:15px 30px;
+    color:#70757a;
+    font-size:14px;
+}
+
+.footer-part2{
+    display:flex;
+    border-top:1px solid #ccc;
+    padding:15px 30px;
+    justify-content:space-between;
+    color:#70757a;
+    background-color:#eee;
+    font-size:14px;  
+}
+.footer-part2 a{
+    text-decoration:none;
+    color:#70757a;
+}
+.footer-part2 a:hover{
+    text-decoration:underline;
+    
+}
+
+.footer1,
+.footer2{
+    display:flex;
+}
+
+
+.f1{
+    margin-right:30px;
+}
+
+@media (max-width:830px){
+    .footer-part2{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    
+    .footer1{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .f1{
+        margin:10px;
+    }
+}
+
+@media (max-width:600px){
+    .footer-part2{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .footer2{
+        margin-top:20px;
+    }
+    .footer1{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .f1{
+        margin:10px;
+    }
+    .procurador{
+        width:350px;
+    }
+    .logo img{
+        width:600px;
+        height:auto;
+    }
+}
+
+
+@media (max-width:350px){
+    .footer-part2{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .footer2{
+        margin-top:20px;
+    }
+    .footer1{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .f1{
+        margin:10px;
+    }
+    .procurador{
+        width:250px;
+    }
+    .logo img{
+        width:400px;
+        height:auto;
+    }
+    .buttons-down{
+        display:flex;
+        justify-content:center;
+        margin-top:25px;
+        font-size:12px;
+        
+    }
+    .bd{
+        margin-right:10px;
+        
+    }
+    .bd a{
+        display:block;
+        padding:10px;
+        text-decoration:none;
+        color:#000000de
+    }
+    .bd a:hover{
+        background-color:#eee;
+        border:1px solid #ddd;
+        padding:9px;
+        border-radius:5px;
+    }
+}
